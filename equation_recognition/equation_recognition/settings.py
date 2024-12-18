@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'recognition',
 ]
 
 MIDDLEWARE = [
@@ -79,7 +80,7 @@ DATABASES = {
         'NAME': 'equation_recognition',  # database name
         'ENFORCE_SCHEMA': False,
         'CLIENT': {
-            'host': 'mongodb+srv://equation_recognition:YgZXi4mHp3ZIbuln@cluster2.fw03k.mongodb.net/',
+            'host': 'mongodb+srv://equation_recognition_service:MDOQ7leniSx1pw93@dev-cluster.ucfew.mongodb.net/',
         }
     }
 }
